@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>App Development Meeting Minutes</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>App Development Meeting Minutes</h1>
+        <nav>
+            <ol>
+                <li><a href="#meetingToday">Today's Meeting</a></li>
+                <li><a href="#previousMeetings">Previous Meetings</a></li>
+                <li><a href="#nextMeeting">Next Meeting</a></li>
+            </ol>
+        </nav>
+    </header>
+
+    <hr>
+    
+    <main>
+        <section id="meetingToday">
+          <div>
+            <h2><span>Today's Meeting</span></h2>
+            <p><strong>Date:</strong> <b>April 16, 2024</b></p>
+            <p><em>Location:</em> <i>Conference Room A</i></p>
+            <hr>
+            <h3>Attendance</h3>
+            <ol>
+              <li>Sunho</li>
+            </ol>
+            <h3>Agenda</h3>
+            <ol>
+                <li>Selection of framework</li>
+            </ol>
+            <h3>Unresolved</h3>
+            <ol>
+                <li>Should we use SASS</li>
+            </ol>
+            <h3>Resolved</h3>
+            <ol>
+                <li>Meeting times</li>
+            </ol>
+            <h3>Media</h3>
+            <div>
+              <img src="img.png">
+            </div>
+            <div>
+              <video width="320" height="240" controls>
+                <source src="video.mp4">
+              </video>
+            </div>
+            <div>
+              <audio controls>
+                <source src="audio.mp3">
+              </audio>
+            </div>
+          </div>
+        </section>
+        
+        <section id="previousMeetings">
+            <h2>Previous Meetings</h2>
+            <ul>
+                <li><a href="#">Meeting on April 09, 2024</a></li>
+                <li><a href="#">Meeting on April 02, 2024</a></li>
+            </ul>
+        </section>
+
+        <section id="nextMeeting">
+            <h2>Next Meeting</h2>
+            <p><strong>Date:</strong> April 23, 2024</p>
+            <p><em>Location:</em> Conference Room B</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Contact us at sunho@ucsd.edu</p>
+        <p>2024 Sunho Kim</p>
+    </footer>
+
+    <aside>
+        <details>
+            <summary>More Info</summary>
+            <p>Very detailed information</p>
+        </details>
+    </aside>
+
+    <form>
+        <fieldset>
+            <legend>Feedback Form</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" list="names"><br>
+            <label for="meeting-date">Meeting Date:</label>
+            <input type="date" id="meeting-date" name="meeting-date"><br>
+            <label for="attendee">Did you attend?</label>
+            <input type="checkbox" id="attendee" name="attendee" checked><br>
+            <label>Rate the meeting:</label>
+            <input type="radio" name="rating" value="good"> Good
+            <input type="radio" name="rating" value="average"> Mid
+            <input type="radio" name="rating" value="bad"> Bad<br>
+            <label for="suggestions">Suggestions:</label>
+            <textarea id="suggestions" name="suggestions"></textarea><br>
+            <label for="topics">Topics :</label>
+            <select id="topics" name="topics" list="topicsData">
+                <option value="dev">Development</option>
+                <option value="brainstorm">Brainstorm</option>
+            </select>
+            <datalist id="names">
+                <option value="sunho">sunho</option>
+                <option value="ryan">ryan</option>
+            </datalist>
+            <button type="submit">Submit</button>
+        </fieldset>
+    </form>
+</body>
+</html>
