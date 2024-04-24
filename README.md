@@ -1,3 +1,3 @@
-# Lab 2 - Starter
+# Lab 3
 
-https://sunho.io/Lab2_Starter/
+https://sunho.io/sp24-cse110-lab3
