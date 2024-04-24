@@ -1,5 +1,5 @@
 * {
-  width: default;
+  position: relative;
 }
 
 /*
@@ -16,7 +16,6 @@ body {
 
 a {
     text-decoration: none;
-    color: default;
 }
 
 .grid {
@@ -103,6 +102,10 @@ p.bold:hover {
   border-width: 1px;
   border-color: red;
   border-style: none;
+}
+
+p.bold {
+  display: none;
 }
 
 a:active {
