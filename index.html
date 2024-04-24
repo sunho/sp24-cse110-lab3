@@ -4,12 +4,21 @@
     <meta charset="UTF-8">
     <title>App Development Meeting Minutes</title>
     <link rel="icon" href="favicon.ico" type="image/x-icon">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" >
 </head>
 <body>
+    <style>
+      div {
+        display: block;
+      }
+    </style>
     <header>
-        <h1>App Development Meeting Minutes</h1>
+        <h1 id="title" class="title">App Development Meeting Minutes</h1>
         <nav>
-            <ol>
+            <ol class="menu">
                 <li><a href="#meetingToday">Today's Meeting</a></li>
                 <li><a href="#previousMeetings">Previous Meetings</a></li>
                 <li><a href="#nextMeeting">Next Meeting</a></li>
@@ -19,10 +28,10 @@
 
     <hr>
     
-    <main>
-        <section id="meetingToday">
+    <main class="container">
+        <section id="meetingToday" class="container_block">
           <div>
-            <h2><span>Today's Meeting</span></h2>
+            <h2><span class="mtg_title">Today's Meeting</span></h2>
             <p><strong>Date:</strong> <b>April 16, 2024</b></p>
             <p><em>Location:</em> <i>Conference Room A</i></p>
             <hr>
@@ -61,21 +70,22 @@
         
         <section id="previousMeetings">
             <h2>Previous Meetings</h2>
-            <ul>
+            <ul class="grid">
                 <li><a href="#">Meeting on April 09, 2024</a></li>
                 <li><a href="#">Meeting on April 02, 2024</a></li>
+                <li><a href="#">Meeting on April 01, 2024</a></li>
             </ul>
         </section>
 
         <section id="nextMeeting">
             <h2>Next Meeting</h2>
-            <p><strong>Date:</strong> April 23, 2024</p>
+            <p class="bold"><strong>Date:</strong> April 23, 2024</p>
             <p><em>Location:</em> Conference Room B</p>
         </section>
     </main>
 
     <footer>
-        <p>Contact us at sunho@ucsd.edu</p>
+        <p style="font-weight:100">Contact us at sunho@ucsd.edu</p>
         <p>2024 Sunho Kim</p>
     </footer>
 
